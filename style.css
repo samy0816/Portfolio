@@ -198,6 +198,7 @@ nav ul li a:hover::after{
     border-radius: 10px;
     position: relative;
     overflow: hidden;
+    box-shadow: 10px 15px 5px rgba(190, 190, 190, 0.932);
   
 }
 .work img{
@@ -354,7 +355,7 @@ background-position: 75% 40%;
 background-size: 80%;
 }
 .header-text{
-    margin-top:120%;
+    margin-top:130%;
     font-size: 16px;
 
 }
