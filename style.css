@@ -196,7 +196,6 @@ nav ul li a:hover::after{
 .tab-contents.active-tab{
     display:block;
 }
-
 /*----------Portfolio-------------------------------*/
 
 #portfolio{
@@ -217,14 +216,17 @@ nav ul li a:hover::after{
     width: 100%;
     border-radius: 10px;
     position: relative;
-    overflow: hidden;
+    overflow:hidden;
     box-shadow: 10px 15px 5px rgba(190, 190, 190, 0.932);
   
 }
 .work img{
     width: 200%;
     border-radius: 16px;
-    display:block;
+    display: inline;
+    position: relative;
+    right: 45px;
+    bottom:auto;
     box-shadow: 10px 10px 5px rgba(190, 190, 190, 0.932);
     transition: transform 0.5s;
 
@@ -324,6 +326,18 @@ nav ul li a:hover::after{
     box-shadow: 10px 10px 5px rgba(190, 190, 190, 0.932);
     transition: transform 0.5s;
 
+}
+#image2{
+    position: relative;
+    right: 200px;
+}
+#image1{
+    position: relative;
+    right: 150px;
+}
+#image3{
+    position: relative;
+    right: 150px;
 }
 
 .layer1{
@@ -518,7 +532,7 @@ nav ul .fas{
     margin-top: -50px;
 }
 .about-col-1{
-    margin-bottom: 90px;
+    margin-bottom: 70px;
 }
 .about-col-2{
     font-size: 14px;
@@ -533,6 +547,14 @@ nav ul .fas{
 }
 .copyright{
     font-size: 14px;
+}
+#image2{
+    position: relative;
+    right:140px;
+}
+#image3{
+    position: relative;
+    right:150px;
 }
 }
 #msg{
