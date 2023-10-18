@@ -231,7 +231,18 @@ nav ul li a:hover::after{
     transition: transform 0.5s;
 
 }
-
+#image2{
+    position: relative;
+    right: 200px;
+}
+#image1{
+    position: relative;
+    right: 150px;
+}
+#image3{
+    position: relative;
+    right: 150px;
+}
 .layer{
     width: 100%;
     height: 0%;
@@ -327,18 +338,6 @@ nav ul li a:hover::after{
     transition: transform 0.5s;
 
 }
-#image2{
-    position: relative;
-    right: 200px;
-}
-#image1{
-    position: relative;
-    right: 150px;
-}
-#image3{
-    position: relative;
-    right: 150px;
-}
 
 .layer1{
     width: 100%;
@@ -400,6 +399,107 @@ nav ul li a:hover::after{
     color: white;
     transition: 0.5s;
 }
+
+
+
+
+/*--------------------Case Study-----------------------------*/
+
+#portfolio{
+    padding: 50px 0;
+}
+
+.worklist2{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+    
+
+}
+
+.work2{
+    width:55em; 
+    height: 35em;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 10px 15px 5px rgba(190, 190, 190, 0.932);
+  
+}
+.work2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    display:block;
+    box-shadow: 10px 10px 5px rgba(190, 190, 190, 0.932);
+    transition: transform 0.5s;
+
+}
+
+.layer2{
+    width: 100%;
+    height: 0%;
+    background: linear-gradient(rgba(0,0,0,0.6),#000000);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    transition:height 0.5s;
+}
+.layer2 h3{
+    color: white;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.layer2 p{
+    color: white;
+    text-align: center;
+}
+.layer2 a{
+    margin-top: 20px;
+    color: #710193;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    background: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+}
+.work2:hover img{
+    transform: scale(1.1);
+}
+.work2:hover .layer2{
+    height: 100%;
+}
+
+.btn{
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px groove black;
+    padding: 14px 50px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    color: black;
+}
+.btn:hover{
+    background: black;
+    color: white;
+    transition: 0.5s;
+}
+
+
 
 
 /*-------------------Contact--------------------------*/
@@ -555,6 +655,30 @@ nav ul .fas{
 #image3{
     position: relative;
     right:150px;
+}
+#image4
+{
+    position: relative;
+    right:200px;
+}
+.layer2 h3{
+position: relative;
+right: 290px;
+}
+.layer2 p{
+    position: relative;
+    right: 285px;
+    font-size: 16px;
+    font-style: italic;
+    max-width: 600px;
+    text-align:center;
+    width:40%;
+    height:auto;
+    margin:0 auto;
+}
+.layer2 a{
+    position: relative;
+    right: 290px;
 }
 }
 #msg{
