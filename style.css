@@ -425,6 +425,10 @@ nav ul li a:hover::after{
     border-radius: 10px;
     position: relative;
     overflow: hidden;
+    border-style:groove;
+    border-color: #000000;
+    border-radius: 0px;
+    border-width: 5px;
     box-shadow: 10px 15px 5px rgba(190, 190, 190, 0.932);
   
 }
@@ -659,7 +663,17 @@ nav ul .fas{
 #image4
 {
     position: relative;
-    right:200px;
+    right:9px;
+}
+
+.work2{
+    width:18em; 
+    height: 18em;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 10px 15px 5px rgba(190, 190, 190, 0.932);
+  
 }
 .layer2 h3{
 position: relative;
